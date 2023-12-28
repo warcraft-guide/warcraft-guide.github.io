@@ -1,0 +1,286 @@
+<html>
+<head>
+  <title>Warcraft Guide</title>
+  <link rel="icon" type="image/x-icon" href="./media/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+  /* PAGE */
+    body {
+      background-image: url("./media/wallpaper.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  /* CONTAINERS */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      padding: 10px 10px;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 10px;
+      font-size: 50px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    #left {
+      float: left;
+      margin-right: 5px;
+      #overflow-y: scroll;
+    }
+    #right {
+      margin-left: 5px;
+      #overflow-y: scroll;
+    }
+    .content-c {
+      display: grid;
+    }
+    #center {
+      margin-left: 20%;
+      margin-right: 20%;
+      #overflow-y: scroll;
+    }
+    .box {
+      padding: 5px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .but {
+      margin-left: 20px;
+      margin-right: 50%;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+    #hide {
+      margin-left: 20px;
+      margin-right: 50%;
+      display: none;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  /* ELEMENTS */
+    hr {
+      color: white;
+    }
+    #red {
+      color: red;
+    }
+    #white {
+      color: white;
+    }
+    #black {
+      color: black;
+    }
+  /* TEXT */
+    @font-face { font-family: Warcraft; src: url('./media/font.ttf'); }
+    .title {
+      color: red;
+      text-align: center;
+      font-size: 50px;
+      font-family: Warcraft;
+      text-shadow: 1px 1px 2px black;
+    }
+    .subtitle {
+      color: red;
+      text-align: center;
+      font-size: 40px;
+      font-family: Warcraft;
+      text-shadow: 1px 1px 2px black;
+    }
+    .sub-1 {
+      color: white;
+      text-align: left;
+      margin-left: 10px;
+      font-size: 25px;
+      font-family: Warcraft;
+      text-shadow: 1px 1px 2px black;
+    }
+    p {
+      color: white;
+      text-align: left;
+      margin-left: 15px;
+      margin-right: 10px;
+      font-size: 15px;
+      font-family: sans;
+      text-shadow: 1px 1px 2px black;
+    }
+    #font-war {
+      font-family: Warcraft;
+      font-size: 20px
+    }
+    #font-mono {
+      font-family: monospace;
+      padding-left: 3px;
+      padding-right: 3px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    i {
+      color: lightgray;
+    }
+    a {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="buttons" id="left">
+    <a href="index.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-house"></i></a>
+    <a href="guides.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-book-open"></i></a>
+  </div>
+  <h1 class="title">[ WARCRAFT III REFORGED GUIDE ]</h1>
+  <div class="buttons" id="right">
+    <a href="ressources.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-screwdriver-wrench"></i></a>
+    <a href="about.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-address-card"></i></a>
+  </div>
+</div>
+<hr id="red">
+<!-- LEFT SIDE -->
+<div class="content"><div id="left">
+    <h1 class="subtitle">Website</h1>
+    <h3 class="sub-1"><i style="color: white;" class="fa-solid fa-circle-info"></i> About Us <sub><sup><small><i>@ 27.12.2023 | mi.sh</i></small></sup></sub></h3>
+    <div class="box">
+      <p>
+        Welcome to the <b id="font-war">Warcraft III Reforged Guide!</b><br>
+        We think there aren't any good guides and tutorials on how to play this game, so it's very hard for newcomers to get into Warcraft, which is why many people won't experience this masterpiece.<br>
+        That's why we've created this website. We want to create an easy-to-understand but comprehensive and in-depth guide for people new to Warcraft.<br>
+        If you want to help us, join the <b id="font-war"><a id="red" href="https://rvlt.gg/0g6NZz3n">Warcraft III Reforged Revolt Server</a></b> or the <b id="font-war"><a id="red" href="https://discord.gg/NV9RUay58P">Qyint Discord Server!</a></b><br>
+        We have a dedicated channel for feedback, tutorial requests, etc.<br>
+        Note that we aren't pro players, that's why we need <b>your</b> help to build this guide.<br>
+        <i id="white">Huge thanks to everyone who contributed to this Site and I hope we could help you! ♡</i>
+      </p>
+    </div>
+    <h3 class="sub-1"><i style="color: white;" class="fa-solid fa-pen-ruler"></i> Style Guide <sub><sup><small><i>@ 27.12.2023 | mi.sh</i></small></sup></sub></h3>
+    <div class="box">
+      <p>
+        This is a collection of tools for editing on this website.
+      </p>
+      <hr>
+      <p>
+        We use <b>bold</b> text to highlight something.<br>
+        We use <i>italic</i> and <small><i>small</i></small> text for comments.<br>
+        We use <span id="red">red text</span> for the most important things.<br>
+        We use <del>deleted</del> text for outdated information. and <sub>subscript</sub> text for updates.<br>
+        Example:<br>
+        <b id="red">DO NOT CLICK <a href="https://youtu.be/dQw4w9WgXcQ" id="red">THIS</a> BUTTON OR YOU WILL DIE!</b><br>
+        <small><i>(for legal reasons: you won't.)</i></small><br>
+        We use <span id="font-mono">inline code</span> or
+      </p>
+      <p id="font-mono">
+        code blocks
+      </p>
+      <p>
+        for code, things to copy-paste, etc.
+      </p>
+      <div class="but" id="but1">
+        <p class="link" id="black"><i id="black" class="fas fa-caret-down"></i> This is an Image:</p>
+      </div>
+      <div class="hide1" id="hide">
+        <img class="item" src="./media/logo.png" style="width:100%;"></img><br>
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const butDiv = document.getElementById("but1");
+            const caretIcon = document.querySelector(".fas.fa-caret-down");
+            const hideDiv = document.querySelector(".hide1");
+            let divVisible = false;
+            butDiv.addEventListener("click", function () {
+                if (!divVisible) {
+                    hideDiv.style.display = "block";
+                    caretIcon.classList.replace("fa-caret-down", "fa-caret-up");
+                } else {
+                    hideDiv.style.display = "none";
+                    caretIcon.classList.replace("fa-caret-up", "fa-caret-down");
+                }
+                divVisible = !divVisible;
+            });
+        });
+      </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (window.location.hash) {
+                const targetID = window.location.hash.substring(1);
+                const targetElement = document.getElementById(targetID);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: "smooth" });
+                    if (targetElement.classList.contains("item")) {
+                        const butDiv = document.getElementById("but1");
+                        const caretIcon = document.querySelector(".fas.fa-caret-down");
+                        const hideDiv = document.querySelector(".hide1");
+                        hideDiv.style.display = "block";
+                        caretIcon.classList.replace("fa-caret-down", "fa-caret-up");
+                    }
+                }
+            }
+        });
+      </script>
+      <hr>
+      <p>
+    	The custom font we use is <a href="https://www.dafont.com/de/lifecraft.font"><b>LifeCraft</b></a>.<br>
+    	Here is a character map of all symbols so editors can easily copy/paste.
+      </p>
+      <div class="box" id="ex1">
+        <p id="font-war">
+          AaBbCcDdEeFfƒGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br>
+          0123456789<br>
+          [ ] ¢ © ^<br>
+          _ / % \ | - = + × * • # † ‡ ` ~ °<br>
+          , . ! ? : ; " ' ” “ ‘ ’ ( ) { } &lt; &gt;<br>
+          &amp; § @ ® ™ $ € £ ¥ ¤<br>
+          ← → ↓ ↑ » › ‹ «<br>
+          ☭ Ⓐ ♡ ✓ ✘<br>
+          ⚑ ⚐ ♺ ✪ ☆ ✮ ✯ ✭ ★<br>
+          ♟ ♞ ♝ ♜ ♛ ♚<br>
+          ª Œ œ Š Е
+        </p>
+      </div>
+    </div>
+</div>
+<!-- RIGHT SIDE -->
+<div id="right">
+    <h1 class="subtitle">Community</h1>
+    <h3 class="sub-1"><i style="color: white;" class="fa-solid fa-pencil"></i> Editors</h3>
+    <div class="box">
+      <p>
+        <b>♚ mi.sh</b><br>
+        <b>♛ Lord_Flo</b>
+      </p>
+    </div>
+    <h3 class="sub-1"><i style="color: white;" class="fa-solid fa-note-sticky"></i> To-Do List</h3>
+    <div class="box">
+      <p>
+        <b>Website</b><br>
+        • <span id="font-mono">Back to Top</span> Button<br>
+        • <span id="font-mono">Share</span> Button<br>
+        • German Translations<br>
+        • Portrait Layout CSS<br>
+        • Dedicated Download- and Back Button for Custom Keys<br>
+        • Proper Home Page<br>
+        <br><b>Guides</b><br>
+        • Warbuilds → Mods<br>
+        • Getting Started<br>
+        • Races<br>
+        • Buildings<br>
+        • Units<br>
+        • Heroes<br>
+        • Build Orders<br>
+        • Base Layouts<br>
+        • Creeps<br>
+        • Items<br>
+        • Attributes<br>
+        • Unit Movement and Attacking<br>
+        • Common Strategies<br>
+        <br><b>Ressources</b><br>
+        • Build Orders<br>
+      </p>
+    </div>
+</div>
+</div></div></body></html>

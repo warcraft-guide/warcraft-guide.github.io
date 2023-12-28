@@ -1,0 +1,16 @@
+<rss version="2.0">
+<channel>
+  <title>Warcraft III Reforged Guide</title>
+  <link>https://warcraft-guide.github.io</link>
+  <description>Warcraft III Reforged Guide: RSS Feed for Guide Updates</description>
+
+  <item>
+    <title>About Us</title>
+    <link>https://warcraft-guide.github.io/about.html</link>
+    <guid>https://warcraft-guide.github.io/about.html</guid>
+    <description>About Us</description>
+    <pubDate>Thu, 28 Dec 2023 07:30:00 +0100</pubDate>
+  </item>
+
+</channel>
+</rss>
