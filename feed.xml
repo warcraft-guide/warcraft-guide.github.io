@@ -5,10 +5,18 @@
   <description>Warcraft III Reforged Guide: RSS Feed for Guide Updates</description>
 
   <item>
+    <title>Resource Update</title>
+    <link>https://warcraft-guide.github.io/guides/classic.html</link>
+    <guid>https://warcraft-guide.github.io/guides/classic.html</guid>
+    <description>Classic Custom Maps + Hotkey Editor + Model Studio Link</description>
+    <pubDate>Tue, 14 May 2024 03:00:00 +0100</pubDate>
+  </item>
+
+  <item>
     <title>Warcraft III: Classic</title>
     <link>https://warcraft-guide.github.io/guides/classic.html</link>
     <guid>https://warcraft-guide.github.io/guides/classic.html</guid>
-    <description>Warcraft III: Classic Installation Guide (temporary first version) Released!</description>
+    <description>Warcraft III: Classic Installation Guide (temporary first version) Released! + additional custom maps</description>
     <pubDate>Tue, 14 May 2024 03:00:00 +0100</pubDate>
   </item>
 
