@@ -5,6 +5,14 @@
   <description>Warcraft III Reforged Guide: RSS Feed for Guide Updates</description>
 
   <item>
+    <title>Warcraft III: Classic</title>
+    <link>https://warcraft-guide.github.io/guides/classic.html</link>
+    <guid>https://warcraft-guide.github.io/guides/classic.html</guid>
+    <description>Warcraft III: Classic Installation Guide (temporary first version) Released!</description>
+    <pubDate>Tue, 14 May 2024 03:00:00 +0100</pubDate>
+  </item>
+
+  <item>
     <title>About Us</title>
     <link>https://warcraft-guide.github.io/about.html</link>
     <guid>https://warcraft-guide.github.io/about.html</guid>
