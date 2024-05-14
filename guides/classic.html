@@ -1,0 +1,232 @@
+<html>
+<head>
+  <title>Warcraft Guide</title>
+  <link rel="icon" type="image/x-icon" href="../media/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+  /* PAGE */
+    body {
+      background-image: url("../media/wallpaper.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  /* CONTAINERS */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      padding: 10px 10px;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 10px;
+      font-size: 50px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    #left {
+      float: left;
+      margin-right: 5px;
+      #overflow-y: scroll;
+    }
+    #right {
+      margin-left: 5px;
+      #overflow-y: scroll;
+    }
+    .content-c {
+      display: grid;
+    }
+    #center {
+      margin-left: 20%;
+      margin-right: 20%;
+      #overflow-y: scroll;
+    }
+    .box {
+      padding: 5px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .but {
+      margin-left: 20px;
+      margin-right: 50%;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+    #hide {
+      margin-left: 20px;
+      margin-right: 50%;
+      display: none;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  /* ELEMENTS */
+    hr {
+      color: white;
+    }
+    #red {
+      color: red;
+    }
+    #white {
+      color: white;
+    }
+    #black {
+      color: black;
+    }
+  /* TEXT */
+    @font-face { font-family: Warcraft; src: url('../media/font.ttf'); }
+    .title {
+      color: red;
+      text-align: center;
+      font-size: 50px;
+      font-family: Warcraft;
+      text-shadow: 1px 1px 2px black;
+    }
+    .subtitle {
+      color: red;
+      text-align: center;
+      font-size: 40px;
+      font-family: Warcraft;
+      text-shadow: 1px 1px 2px black;
+    }
+    .sub-1 {
+      color: white;
+      text-align: left;
+      margin-left: 10px;
+      font-size: 25px;
+      font-family: Warcraft;
+      text-shadow: 1px 1px 2px black;
+    }
+    p {
+      color: white;
+      text-align: left;
+      margin-left: 15px;
+      margin-right: 10px;
+      font-size: 15px;
+      font-family: sans;
+      text-shadow: 1px 1px 2px black;
+    }
+    #font-war {
+      font-family: Warcraft;
+      font-size: 20px
+    }
+    #font-mono {
+      font-family: monospace;
+      padding-left: 3px;
+      padding-right: 3px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    i {
+      color: lightgray;
+    }
+    a {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="buttons" id="left">
+    <a href="../index.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-house"></i></a>
+    <a href="../guides.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-book-open"></i></a>
+  </div>
+  <h1 class="title">[ WARCRAFT III REFORGED GUIDE ]</h1>
+  <div class="buttons" id="right">
+    <a href="../ressources.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-screwdriver-wrench"></i></a>
+    <a href="../about.html" style="text-decoration: none;"><i style="color: red;" class="fa-solid fa-address-card"></i></a>
+  </div>
+</div>
+<hr id="red">
+<!-- LEFT SIDE -->
+<div class="content-c"><div id="center">
+    <h1 class="subtitle">Classic Installation</h1>
+    <h3 class="sub-1">? Install Warcraft III (Classic)<sub><sup><small><i>@ 14.05.2024 | mi.sh</i></small></sup></sub></h3>
+    <div class="box">
+      <p>
+        Setting up classic Warcraft III is not all that easy, since Blizzard took down the servers and all but one link to the installer. But it is, in a lot of ways, better than the Reforged version of the game. We have experienced lots of crashes, horrible performance - we literally can't even use the reforged graphics online, since they either drop our frames to 0 or crash the entire game. Reforged also breaks old custom maps and you don't own what you create in the World Editor anymore. On Linux, the World Editor doesn't even work properly. Its 30GB in size and costs 30€, rarely with 50% off. That's why many players want to just keep playing the classic versions. This guide will explain how you can install them.<br>
+        <small><i>This guide was tested on Linux with the Steam Deck in mind. This is an "incomplete" guide, as there is much more we could talk about. I am probably gonna update this soon™ - For now we will update the game to 1.27b and add a widescreen fix. We won't join any custom servers for now. We will also completely ignore any CDs you might have lying around. All of these things will be adressed in future updates. Check the RSS Feed.</i></small>
+      </p>
+      <hr>
+      <p id="font-war">
+        I. Download the Installers
+      </p>
+      <p>
+        You can download <b>the Installers</b> from Blizzard themselves. Links: <b><a href="https://us.battle.net/download/getLegacy?product=WAR3&locale=enUS&os=WIN">Reign of Chaos</a></b> & <b><a href="https://us.battle.net/download/getLegacy?product=W3XP&locale=enUS&os=WIN">The Frozen Throne</a></b> (Expansion).
+      </p>
+      <p id="font-war">
+        II. Install the Game
+      </p>
+      <p>
+        Install <b>Reign of Chaos</b> by running the first installer.<br>
+        If you use Linux, I would add it as a Non-Steam Game to my library and run it with Proton. <i>(You could also add it as a locally installed game in Lutris)</i><br><br>
+        The Installer will ask you for a <b>key</b>. If you have a Warcraft III Key, you can use that. <i>(If you don't, you can simply use <a href="https://www.icyhell.net/random-warcraft-3-cd-keys/">someone</a> <a href="https://gaming-tools.com/warcraft-3/free-warcraft-3-cd-keys/">elses</a> Key. You can always get yourself a Key later and change it.)</i> You need both a RoC and a TFT Key, unless you don't want to install the Frozen Throne Expansion.<br><br>
+        Once you have installed Reign of Chaos, install <b>The Frozen Throne</b> next. <i>(If you use Linux, simply <b>replace</b> the executable in Steam or Lutris)</i><br><br>
+        Yes! It's actually that easy! The entire Warcraft Community pretends like it's impossible!
+      </p>
+      <p id="font-war">
+        III. Install Patches
+      </p>
+      <p>
+        Now we want to update to Patch <b>1.27b</b>. <a href="https://www.moddb.com/downloads/warcraft-iii-the-frozen-throne-v127b-patch-win">Here</a> is a ModDB backup of this old Patch, since Blizzard will force you to update all the way to Reforged and doesn't provide these old Patches. <i>(Again, if you use Linux, simply <b>replace</b> the executable. If you used your own CD instead of these Installers, you might need some additional Patches.)</i>
+      </p>
+      <p id="font-war">
+        IV. Widescreen Fix
+      </p>
+      <p>
+        The game is really old, from a time before 16:9 displays were the standard. So if you want to use a "modern" 16:9 screen, you're either gonna have black bars or a really   w  i  d  e   game. To fix this, we're gonna download the <a href="https://github.com/ENAleksey/RenderEdge_Widescreen/releases/download/v1.2.0c/RenderEdge_Widescreen.mix">RenderEdge Widescreen Fix</a>. Simply place it into the directory where your game is installed. <i>(By default, this is <span id="font-mono">C:\Program Files (x86)\Warcraft III</span>)</i>
+      </p>
+      <p id="font-war">
+        V. Note:
+      </p>
+      <p>
+        Make sure to run <span id="font-mono">Frozen Throne.exe</span> to start the game and <span id="font-mono">World Editor.exe</span> to start the Editor. Custom Maps are obviously saved in the <span id="font-mono">Maps</span> folder.
+      </p>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const butDiv = document.getElementById("but3");
+            const caretIcon = document.querySelector(".fas.fa-caret-down");
+            const hideDiv = document.querySelector(".hide3");
+            let divVisible = false;
+            butDiv.addEventListener("click", function () {
+                if (!divVisible) {
+                    hideDiv.style.display = "block";
+                    caretIcon.classList.replace("fa-caret-down", "fa-caret-up");
+                } else {
+                    hideDiv.style.display = "none";
+                    caretIcon.classList.replace("fa-caret-up", "fa-caret-down");
+                }
+                divVisible = !divVisible;
+            });
+        });
+      </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (window.location.hash) {
+                const targetID = window.location.hash.substring(1);
+                const targetElement = document.getElementById(targetID);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: "smooth" });
+                    if (targetElement.classList.contains("item")) {
+                        const butDiv = document.getElementById("but3");
+                        const caretIcon = document.querySelector(".fas.fa-caret-down");
+                        const hideDiv = document.querySelector(".hide3");
+                        hideDiv.style.display = "block";
+                        caretIcon.classList.replace("fa-caret-down", "fa-caret-up");
+                    }
+                }
+            }
+        });
+      </script>
+      <hr>
+      <p>
+        <i>And that's it for now! Again, I didn't go much into detail here, I'm gonna work out a more in-depth guide soon™. If you want private servers, you should check out <a href="https://eurobattle.net/">eurobattle</a>, which I haven't yet! If you just want to play "LAN" games online, check out tools like <b>hamachi</b>. You can play singleplayer without any problems, the world editor is yours and the tools made for classic warcraft still work! Have fun! ♡
+      </p>
+    </div>
+</div>
+</div></div></body></html>
